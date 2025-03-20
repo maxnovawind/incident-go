@@ -101,6 +101,9 @@ type ActivityItem struct {
 	// Body is a human readable description of the ActivityItem.
 	Body string `json:"body"`
 
+	// BodyJSON is the JSON representation of the body.
+	BodyJSON string `json:"bodyJSON"`
+
 	// URL is an url related with this activity
 	URL string `json:"url"`
 
